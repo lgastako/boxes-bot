@@ -1,0 +1,10 @@
+{
+    "name": "boxes-bot for theboxes.co",
+    "version": "0.1",
+    "incognito": "split",
+    "manifest_version": 2,
+    "content_scripts": [
+        {"matches": ["*://*.theboxes.co/"],
+         "js": ["target/boxes-bot.js"]}
+    ]
+}
